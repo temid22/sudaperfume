@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background: #f0eaea;
+  transition: all 0.5s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+  color: rgb(180, 146, 51);
+}
+
+section {
+  margin: 20px 0px;
+}
+
+.navbarContainer {
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  background: rgb(234, 157, 14);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+.navLogo {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLogo a {
+  color: black;
+  scale: 1.2;
+  font-weight: 700;
+}
+.navImg img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.navbar {
+  height: 40px;
+  color: rgb(18, 18, 18);
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(15, 15, 15, 0.5);
+  font-weight: 900;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.form {
+  margin-top: 100px;
+}
+form {
+  background: linear-gradient(
+    90deg,
+    rgba(17, 13, 1, 1) 0%,
+    rgba(57, 5, 1, 1) 84%,
+    rgba(124, 84, 5, 1) 100%
+  );
+  color: #f2efef;
+  width: 400px;
+  border-radius: 5px;
+}
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.field-wrap {
+  margin: 20px;
+  text-align: center;
+}
+label {
+  font-weight: 600;
+}
+input {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid brown;
+  outline: 0;
+}
+.myBtn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.forgot {
+  text-align: center;
+  color: #f2efef;
+}
+.forgot a {
+  color: #f2efef;
+}
+.myBtn .btn {
+  width: 90%;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 13, 1, 1) 0%,
+    rgba(57, 5, 1, 1) 84%,
+    rgba(124, 84, 5, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f2efef;
+  bottom: 0;
+  position: fixed;
+}
+
+/* media query for large devices */
+@media screen and (max-width: 1900px) {
+  .navImg img {
+    width: 50px;
+    height: 50px;
+  }
+  .navLogo a {
+    font-size: 18px;
+    margin: 20px;
+  }
+}
+
+/* media query for medium devices */
+@media screen and (max-width: 1100px) {
+  .navImg img {
+    width: 45px;
+    height: 45px;
+  }
+  .navLogo a {
+    margin: 20px;
+  }
+}

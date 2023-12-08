@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TinDog</title>
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/cart.css" />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="navbarContainer">
+      <div class="navLogo">
+        <div class="navImg">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+        <a class="navbar-brand" href="#">SudaPerfume</a>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./sudaprefume.html">Home</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./signup.html">
+          <!-- <button class="btn btn-dark">Login</button> -->
+          <button class="myBtn btn-dark">Sign Up</button>
+        </a>
+      </nav>
+    </div>
+
+    <div class="Cart-Container">
+      <div class="Header">
+        <h3 class="Heading">Shopping Cart</h3>
+        <h5 class="Action">Remove all</h5>
+      </div>
+      <div class="Cart-Items">
+        <div class="image-box">
+          <img src="images/image20.png" style="height: 120px" />
+        </div>
+        <div class="about">
+          <h1 class="title">Perfume</h1>
+          <h3 class="subtitle">250ml</h3>
+          <img src="images/image20.png" class="smallImg" />
+        </div>
+        <div class="counter">
+          <div class="counter">
+            <div class="btn">+</div>
+            <div class="count">2</div>
+            <div class="btn">-</div>
+          </div>
+        </div>
+        <div class="prices">
+          <div class="amount">$2.99</div>
+          <div class="save"><u>Save to wishlist</u></div>
+          <div class="remove"><u>Remove</u></div>
+        </div>
+      </div>
+      <div class="Cart-Items">
+        <div class="image-box">
+          <img src="images/bakhor1.png" style="height: 120px" />
+        </div>
+        <div class="about">
+          <h1 class="title">Bakhoor</h1>
+          <h3 class="subtitle">100ml</h3>
+          <img class="smallImg" src="images/bakhor1.png" />
+        </div>
+        <div class="counter">
+          <div class="counter">
+            <div class="btn">+</div>
+            <div class="count">2</div>
+            <div class="btn">-</div>
+          </div>
+        </div>
+        <div class="prices">
+          <div class="amount">$2.99</div>
+          <div class="save"><u>Save to wishlist</u></div>
+          <div class="remove"><u>Remove</u></div>
+        </div>
+      </div>
+      <hr />
+      <div class="checkout">
+        <div class="total">
+          <div>
+            <div class="Subtotal">Sub-Total</div>
+            <div class="items">2 items</div>
+          </div>
+          <div class="total-amount">$6.18</div>
+        </div>
+        <button class="button">Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
